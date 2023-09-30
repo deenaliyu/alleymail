@@ -6,80 +6,81 @@
     <title>Kyc</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <style>
+        .btn{
+            background-color: #E85039; color: #fff; 
+            border-radius: 0.25rem; 
+            padding: 0.5rem 0.5rem; 
+            font-size: 0.9375rem; 
+            margin: 1rem 0rem; 
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body>
-    <section class="bg-[#E4E4E4] flex justify-center  w-[100%] h-[100%]">
-        <div class="mt-6 flex justify-center">
-            <div class="pb-3">
-                <div class=" flex justify-center">
-                    <img src="./img/logo.png" alt="">
+<body style="background-color: #E4E4E4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+            <div class="pb-3" style="padding-bottom: 10px;">
+                <div style="display: flex; justify-content: center;">
+                    <img src="logo.png" alt="">
                 </div>
-               <div class="flex justify-center">
-                <div class="bg-[#ffff] p-9 mt-6 w-[100%] rounded-md">
-                    <h4 class="text-[16px] font-bold text-[#1E1E1E] mb-4 text-center">Verification Failed</h4>
-                    <hr class="my-4">
-                    <p class="font-normal text-[#000] text-[16px]">Sorry you did not pass the review process</p>
+               <div  style="display: flex; justify-content: center;">
+                <div  style="background-color: #fff; padding: 30px; margin-top: 2rem; border-radius: 10px; width: 100%;">
+                    <h4 style="font-size: 16px; font-weight: bold; color: #1e1e1e; margin-bottom: 10px; text-align: center;">Verification Failed</h4>
+                    <hr class="" style="margin: 5px 5px;">
+                    <p class="font-normal text-[#000] text-[16px]" style="font-weight: normal; color: #000; font-size: 16px;">Sorry you did not pass the review process</p>
 
-                    <p class="font-normal text-[#000] text-[15px] mt-4">The reason for  failure is as follows</p>
+                    <p  style="font-weight: normal; color: #000; font-size: 15px; margin-top: 0.5rem;">The reason for  failure is as follows</p>
 
-                    <div class="px-10 mt-3">
-                        <ul class="list-decimal">
-                            <li class="text-[15px]"> No matching record found in address data sources. Please make sure your name <br> and address info are correct</li>
+                    <div class="" style="padding:0px 20px; margin-top: 0.5rem;">
+                        <ul style="list-style-type: decimal;">
+                            <li style="font-size: 15px;"> No matching record found in address data sources. Please make sure your name <br> and address info are correct</li>
                         </ul>
                     </div>
-                   
-
-                    <p class="font-normal text-[#000] text-[15px] mt-4">Please read the <span class="text-[#E85039]">FAQs</span> and Help section. Retry by clicking the button below to log-in to <br> your account and navigate to the verification Centre  </p>
-                    <div class=" mt-4">
-                        <a href="" class="bg-[#E85039] text-[#fff] rounded-md p-2 text-[15px] ">Visit Verification Centre</a>
+                    <p class="font-normal text-[#000] text-[15px] mt-4" >Please read the <span class="text-[#E85039]">FAQs</span> and Help section. Retry by clicking the button below to log-in to <br> your account and navigate to the verification Centre  </p>
+                    <div style="margin-top: 0.8rem;">
+                        <a href="" class="btn">Visit Verification Centre</a>
                     </div>
 
-                    <p class="font-normal text-[#000] text-[15px] mt-4">Worried about your data? We take data privacy very serious. Your information is <br> encrypted and stored securely. You can find our full data privacy policy.<span class="text-[#E85039]"> here</span> </p>
+                    <p style="font-weight: normal; color: #000; font-size: 15px; margin-top: 0.8rem;">Worried about your data? We take data privacy very serious. Your information is <br> encrypted and stored securely. You can find our full data privacy policy.<span class="text-[#E85039]"> here</span> </p>
 
-                    <p class="font-normal text-[#000] text-[15px] mt-4">If you didn’t request a password reset, follow our <a href="" class="text-[#E85039]">account security guide</a> to secure your 
-                        <br>account, if you believe your account has been compromised. <a href="" class="text-[#E85039]"> Contact us </a>immediately</p>
+                    <p style="font-weight: normal; color: #000; font-size: 15px; margin-top: 0.5rem;">If you didn’t request a password reset, follow our <a href="" style="color: #E85039;">account security guide</a> to secure your 
+                        <br>account, if you believe your account has been compromised. <a href="" style="color: #E85039;"> Contact us </a>immediately</p>
                 </div>
                </div>
-                
-               <div class="flex justify-center">
-                <div class="flex  w-[80%] justify-between p-9">
-                    <p class="text-[#696969]">
-                        Contact Us
-                    </p>
-                    <p class="text-[#696969]">
-                        Privacy Policy
-                    </p>
-                    <p class="text-[#696969]">
-                        Terms of Service
-                    </p>
+               <div style="display: flex; justify-content: center">
+                <div style="display: flex; justify-content: space-between; width: 80%;">
+                    <div style="flex: 1; padding: 1rem;">
+                        <p style="color: #696969;">Contact Us</p>
+                    </div>
+                    <div style="flex: 1; padding: 1rem;">
+                        <p style="color: #696969;">Privacy Policy</p>
+                    </div>
+                    <div style="flex: 1; padding: 1rem;">
+                        <p style="color: #696969;">Terms of Service</p>
+                    </div>
                 </div>
-                
-               </div>
-               <div class="flex justify-center">
-                <div class="flex  w-[80%] justify-center space-x-10">
-                    <iconify-icon icon="fa6-brands:square-x-twitter" width="32" height="32" class="text-[#E85039]"></iconify-icon>
-                    <iconify-icon icon="fa-brands:instagram-square" width="32" height="32" class="text-[#E85039]"></iconify-icon>
-                    <iconify-icon icon="bxl:facebook-square" width="32" height="32" class="text-[#E85039] rounded-md"></iconify-icon>
-                </div>
-                
-               </div>
-
-               <div class="flex justify-center mt-6 text-center">
-                <div class="w-[80%]">
-                    <p class="text-[#696969] mb-2">
-                        Please do not reply to this email. You can get in touch with us <a href="" class="text-[#E85039]">here</span>. 
-                    </p>
-                    <p class="text-[#696969]">
-                        If you have not signed up for an account with us, please disregard this message
-                    </p>
-                </div>
-               
-               </div>
-               
-
             </div>
-            
+            <div style="display: flex; justify-content: center;">
+                <div style="display: flex; justify-content: space-between; width: 60%;">
+                    <span style="color: #E85039; font-size: 2rem; margin-right: 1rem;">
+                        <i class="fa6-brands:square-x-twitter"></i>
+                    </span>
+                    <span style="color: #E85039; font-size: 2rem; margin-right: 1rem;">
+                        <i class="fa-brands:instagram-square"></i>
+                    </span>
+                    <span style="color: #E85039; font-size: 2rem; border-radius: 0.25rem;">
+                        <i class="bxl:facebook-square"></i>
+                    </span>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div style="text-align: center;">
+                    <p style="color: #696969; margin-bottom: 0.25rem;">Please do not reply to this email. You can get in touch with us <a href="" style="color: #E85039;">here</a>.</p>
+                    <p style="color: #696969;">If you have not signed up for an account with us, please disregard this message</p>
+                </div>
+            </div>
+            </div>
         </div>
-    </section>
 </body>
 </html>
