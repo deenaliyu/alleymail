@@ -6,44 +6,28 @@
     <title>Welcome</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <style>
-        .btn{
-            background-color: #E85039; color: #fff; 
-            border-radius: 0.25rem; 
-            padding: 0.5rem 0.5rem; 
-            font-size: 0.9375rem; 
-            margin: 1rem 0rem; 
-            text-decoration: none;
-        }
-    </style>
 </head>
 <body>
     <body style="background-color: #E4E4E4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
         <div style="display: flex; justify-content: center; margin-top: 10px;">
-            <div class="pb-3" style="padding-bottom: 10px;">
+            <div style="padding-bottom: 3px;">
                 <div style="display: flex; justify-content: center;">
-                    <img src="logo.png" alt="">
+                    <img src="https://alley-bucket.s3.amazonaws.com/logo.png" alt="" style="display: block;">
                 </div>
-               <div  style="display: flex; justify-content: center;">
-                <div  style="background-color: #fff; padding: 30px; margin-top: 2rem; border-radius: 10px; width: 80%;">
-                    <h4  style="font-size: 18px; font-weight: bold; color: #1e1e1e; margin-bottom: 8px;">Welcome, Sandra!</h4>
-                    <p  style="font-weight: normal; color: #000; font-size: 16px;">You’re almost ready to get started, just click the button below to conirm the email address for your account.</p>
-
-                    <div  style="margin-top: 10px;">
-                        <a href="" class="btn">Confirm Email</a>
+                <div style="display: flex; justify-content: center;">
+                    <div style="background-color: #ffff; padding: 9px; margin-top: 6px; width: 80%; text-align: center; border-radius: 5px;">
+                        <h4 style="font-size: 18px; font-weight: bold; color: #1E1E1E; margin-bottom: 4px;">Welcome, {{ name }}!</h4>
+                        <p style="font-size: 16px; font-weight: normal; color: #000;">You’re almost ready to get started, use the OTP to confirm the email address for your account.</p>
+                        <div style="margin-top: 4px;">
+                            <p style="font-size: 16px; color: #E85039; margin-top: 4px;">{{ otp }}</p>
+                        </div>
+                        <p style="color: #696969; margin-top: 5px;">Sincerely,</p>
+                        <p style="color: #696969; margin-top: 3px;">Alleybookings Team</p>
                     </div>
-
-                    <p style="font-weight: normal; color: #000; font-size: 15px; margin-top: 8px;">If you have any trouble, try pasting this link in your browser</p>
-
-                    <a href="#" style="color: #E85039; margin-top: 8px; font-size: 14px;">https://hdkufdgbkhujdkudjvghjdgshjhdjjhds</a>
-
-                    <p  style="color: #696969; margin-top: 10px;">Sincerely,</p>
-                    <p  style="color: #696969; margin-top: 6px;">Alleybookings Team</p>
-                </div>
                </div>
                 
                <div style="display: flex; justify-content: center">
-                <div style="display: flex; justify-content: space-between; width: 60%;">
+                <div style="display: flex; justify-content: space-between; width: 70%;">
                     <div style="flex: 1; padding: 1rem;">
                         <p style="color: #696969;">Contact Us</p>
                     </div>
@@ -81,3 +65,5 @@
         </div>
 </body>
 </html>
+
+
